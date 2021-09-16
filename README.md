@@ -97,7 +97,7 @@ To load the JSON file **query.json**, type `query> load` command in Terminal to 
 
 
 # Regex
-A naïve implementation of query's condition and relation mapping was implemented based on splitting the query in multiple string parts and storing each attribute, operator and value into variables. We decided to use Regex in order to validate the full query, to reduce time, to write fewer lines of code and to access easier and faster the attributes and conditions from the string query.
+We decided to use Regex in order to validate the full query, to reduce time, to write fewer lines of code and to access easier and faster the attributes and conditions from the string query.
 
 An example of a REGEX which was used for PROJECT(CARTESIAN) optimization, is the following:
 `^PROJECT\[([^ \[\]<>=!,|\n]+(?(?=\,)((\,)(?1))))\]\(CARTESIAN\(([^()\n]+|[^()\n]*\((?4)\)[^()\n]*)+\)\(([^()\n]+|[^()\n]*\((?5)\)[^()\n]*)+\)\)`

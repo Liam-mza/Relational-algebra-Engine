@@ -24,17 +24,17 @@ We have implemented all expressions: selection, project, cartesian product, rena
 ## Terminal Commands
 **>query test** -> Start a predefined test queries with and without optimization
 
-**>query load** -> Load query from JSON file
+**query> load** -> Load query from JSON file
 
-**>query enable OPT** -> Enable cartesian optimization (PART 2)
+**query> enable OPT** -> Enable cartesian optimization (PART 2)
 
-**>query disable OPT** -> Disable cartesian optimization
+**query> disable OPT** -> Disable cartesian optimization
 
-**>query enable PARA** -> Enable parallel functions (PART 3)
+**query> enable PARA** -> Enable parallel functions (PART 3)
 
-**>query disable PARA** -> Disable parallel functions
+**query> disable PARA** -> Disable parallel functions
 
-**>query exit** -> Exit the Terminal
+**query> exit** -> Exit the Terminal
 
 ## Terminal Language
 **[condition]: attribute_1#value_1$attribute_2#value_2** including _False=1_ and _True=1_

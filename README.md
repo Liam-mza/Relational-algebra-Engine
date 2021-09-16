@@ -119,4 +119,4 @@ To be able to compute queries faster, we decided to implement a form parallelism
 
 # Example
 here is an example of query with the terminal output:  
-<img src="drawing.jpg" alt="drawing" width="200"/>
+<img src="https://github.com/Liam-mza/Relational-algebra-Engine/blob/main/image/Terminal_Example.JPG" alt="drawing" width="400"/>

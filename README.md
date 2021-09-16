@@ -22,7 +22,7 @@ JSON format is parsed into Terminal format and then it is passed to the REGEX va
 We have implemented all expressions: selection, project, cartesian product, renaming, minus and union. For complex queries we use recursion and then we output the result in a nice table on Terminal.
 
 ## Terminal Commands
-**>query test** -> Start a predefined test queries with and without optimization
+**query> test** -> Start a predefined test queries with and without optimization
 
 **query> load** -> Load query from JSON file
 

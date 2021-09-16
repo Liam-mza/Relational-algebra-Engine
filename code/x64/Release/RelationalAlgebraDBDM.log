@@ -1,0 +1,30 @@
+﻿  RelationalAlgebraDBDM.cpp
+D:\OneDrive\Calculatoare si Tehnologia Informatiei\ERASMUS\DBDM\Project\project2021\project2021\GitLab\RelationalAlgebraDBDM\RelationalAlgebraDBDM.cpp(302,50): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:\OneDrive\Calculatoare si Tehnologia Informatiei\ERASMUS\DBDM\Project\project2021\project2021\GitLab\RelationalAlgebraDBDM\RelationalAlgebraDBDM.cpp(303,64): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:\OneDrive\Calculatoare si Tehnologia Informatiei\ERASMUS\DBDM\Project\project2021\project2021\GitLab\RelationalAlgebraDBDM\RelationalAlgebraDBDM.cpp(306,23): warning C4018: '<': signed/unsigned mismatch
+D:\OneDrive\Calculatoare si Tehnologia Informatiei\ERASMUS\DBDM\Project\project2021\project2021\GitLab\RelationalAlgebraDBDM\RelationalAlgebraDBDM.cpp(308,55): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:\OneDrive\Calculatoare si Tehnologia Informatiei\ERASMUS\DBDM\Project\project2021\project2021\GitLab\RelationalAlgebraDBDM\RelationalAlgebraDBDM.cpp(309,27): warning C4018: '<': signed/unsigned mismatch
+D:\OneDrive\Calculatoare si Tehnologia Informatiei\ERASMUS\DBDM\Project\project2021\project2021\GitLab\RelationalAlgebraDBDM\RelationalAlgebraDBDM.cpp(311,80): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:\OneDrive\Calculatoare si Tehnologia Informatiei\ERASMUS\DBDM\Project\project2021\project2021\GitLab\RelationalAlgebraDBDM\RelationalAlgebraDBDM.cpp(317,23): warning C4018: '<': signed/unsigned mismatch
+D:\OneDrive\Calculatoare si Tehnologia Informatiei\ERASMUS\DBDM\Project\project2021\project2021\GitLab\RelationalAlgebraDBDM\RelationalAlgebraDBDM.cpp(320,23): warning C4018: '<': signed/unsigned mismatch
+D:\OneDrive\Calculatoare si Tehnologia Informatiei\ERASMUS\DBDM\Project\project2021\project2021\GitLab\RelationalAlgebraDBDM\RelationalAlgebraDBDM.cpp(328,23): warning C4018: '<': signed/unsigned mismatch
+D:\OneDrive\Calculatoare si Tehnologia Informatiei\ERASMUS\DBDM\Project\project2021\project2021\GitLab\RelationalAlgebraDBDM\RelationalAlgebraDBDM.cpp(333,23): warning C4018: '<': signed/unsigned mismatch
+D:\OneDrive\Calculatoare si Tehnologia Informatiei\ERASMUS\DBDM\Project\project2021\project2021\GitLab\RelationalAlgebraDBDM\RelationalAlgebraDBDM.cpp(336,27): warning C4018: '<': signed/unsigned mismatch
+D:\OneDrive\Calculatoare si Tehnologia Informatiei\ERASMUS\DBDM\Project\project2021\project2021\GitLab\RelationalAlgebraDBDM\RelationalAlgebraDBDM.cpp(345,23): warning C4018: '<': signed/unsigned mismatch
+D:\OneDrive\Calculatoare si Tehnologia Informatiei\ERASMUS\DBDM\Project\project2021\project2021\GitLab\RelationalAlgebraDBDM\RelationalAlgebraDBDM.cpp(368,23): warning C4018: '<=': signed/unsigned mismatch
+D:\OneDrive\Calculatoare si Tehnologia Informatiei\ERASMUS\DBDM\Project\project2021\project2021\GitLab\RelationalAlgebraDBDM\RelationalAlgebraDBDM.cpp(660,65): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\OneDrive\Calculatoare si Tehnologia Informatiei\ERASMUS\DBDM\Project\project2021\project2021\GitLab\RelationalAlgebraDBDM\RelationalAlgebraDBDM.cpp(896,65): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\OneDrive\Calculatoare si Tehnologia Informatiei\ERASMUS\DBDM\Project\project2021\project2021\GitLab\RelationalAlgebraDBDM\RelationalAlgebraDBDM.cpp(1078,65): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\OneDrive\Calculatoare si Tehnologia Informatiei\ERASMUS\DBDM\Project\project2021\project2021\GitLab\RelationalAlgebraDBDM\RelationalAlgebraDBDM.cpp(1245,8): warning C4305: 'argument': truncation from 'int' to 'const _Elem'
+          with
+          [
+              _Elem=char
+          ]
+D:\OneDrive\Calculatoare si Tehnologia Informatiei\ERASMUS\DBDM\Project\project2021\project2021\GitLab\RelationalAlgebraDBDM\RelationalAlgebraDBDM.cpp(1245,18): warning C4309: 'argument': truncation of constant value
+D:\OneDrive\Calculatoare si Tehnologia Informatiei\ERASMUS\DBDM\Project\project2021\project2021\GitLab\RelationalAlgebraDBDM\RelationalAlgebraDBDM.cpp(1302,42): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Generating code
+  0 of 2042 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  RelationalAlgebraDBDM.vcxproj -> D:\OneDrive\Calculatoare si Tehnologia Informatiei\ERASMUS\DBDM\Project\project2021\project2021\GitLab\RelationalAlgebraDBDM\x64\Release\RelationalAlgebraDBDM.exe

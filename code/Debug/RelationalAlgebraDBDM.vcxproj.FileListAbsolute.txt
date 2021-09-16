@@ -1,0 +1,4 @@
+D:\OneDrive\Calculatoare si Tehnologia Informatiei\ERASMUS\DBDM\Project\project2021\project2021\RelationalAlgebraDBDM\Debug\RelationalAlgebraDBDM.exe
+D:\OneDrive\Calculatoare si Tehnologia Informatiei\ERASMUS\DBDM\Project\project2021\project2021\RelationalAlgebraDBDM\Debug\RelationalAlgebraDBDM.pdb
+D:\OneDrive\Calculatoare si Tehnologia Informatiei\ERASMUS\DBDM\Project\project2021\project2021\GitLab\RelationalAlgebraDBDM\Debug\RelationalAlgebraDBDM.exe
+D:\OneDrive\Calculatoare si Tehnologia Informatiei\ERASMUS\DBDM\Project\project2021\project2021\GitLab\RelationalAlgebraDBDM\Debug\RelationalAlgebraDBDM.pdb

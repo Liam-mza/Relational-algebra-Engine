@@ -1,0 +1,297 @@
+{
+    "operation": "selection",
+    "args": {
+        "attributes": ["ide", "dpt"],
+        "object": {"operation": "load",
+                   "filename": "employes.csv"
+                }
+    }
+}
+// SELECTION
+{
+    "operation": "selection",
+    "args": {
+        "attributes": ["ide"],
+        "object": {
+			"operation": "selection",
+			"args": {
+				"attributes": ["ide", "dpt"],
+				"object": {"operation": "load",
+						   "filename": "employes.csv"
+						}
+			}
+		}
+    }
+}
+
+// PROJECTION
+// 1
+{
+    "operation": "projection",
+    "args": {
+        "condition": {
+			"comparator": "<",
+			"attribute1": "ide",
+			"attribute2": "7"
+		},
+        "object": {"operation": "load",
+                   "filename": "employes.csv"
+                }
+    }
+}
+// 2
+{
+    "operation": "projection",
+    "args": {
+        "condition": {
+			"logical": "and",
+			"condition1": {
+				"comparator": "<",
+				"attribute1": "ide",
+				"attribute2": "5"
+			},
+			"condition2": {
+			"comparator": ">",
+			"attribute1": "dpt",
+			"attribute2": "3"
+		}
+		},
+        "object": {"operation": "load",
+                   "filename": "employes.csv"
+                }
+    }
+}
+// UNION/CARTESIAN/DIFFERENCE
+{
+    "operation": "minus",
+    "args": {
+        "object1": {
+			"operation": "projection",
+			"args": {
+				"condition": {
+					"comparator": "<",
+					"attribute1": "ide",
+					"attribute2": "5"
+				},
+				"object": {"operation": "load",
+						   "filename": "employes.csv"
+						}
+			}
+		},
+        "object2": {
+			"operation": "projection",
+			"args": {
+				"condition": {
+					"comparator": ">",
+					"attribute1": "dpt",
+					"attribute2": "3"
+				},
+				"object": {"operation": "load",
+						   "filename": "employes.csv"
+						}
+			}
+		}
+    }
+}
+// RENAMING
+{
+    "operation": "renaming",
+    "args": {
+        "old attributes": ["ide", "dpt"],
+		"new attributes": ["new_ide", "new_dpt"],
+        "object":
+		{
+			"operation": "projection",
+			"args": {
+				"condition": {
+					"comparator": "<",
+					"attribute1": "ide",
+					"attribute2": "7"
+				},
+				"object": {"operation": "load",
+						   "filename": "employes.csv"
+						}
+			}
+		}
+    }
+}
+// not
+{
+    "operation": "projection",
+    "args": {
+        "condition": {
+			"logical": "and",
+			"condition1": 
+			{
+				"logical": "not",
+				"condition": {
+					"comparator": "}",
+					"attribute1": "ide",
+					"attribute2": "5"
+					}
+			},
+			"condition2": {
+			"comparator": ">",
+			"attribute1": "dpt",
+			"attribute2": "3"
+		}
+		},
+        "object": {"operation": "load",
+                   "filename": "employes.csv"
+                }
+    }
+}
+// not
+{
+    "operation": "projection",
+    "args": {
+        "condition": {
+			"logical": "and",
+			"condition1": 
+			{
+				"logical": "not",
+				"condition": {
+					"logical": "not",
+					"condition": {
+						"comparator": "<",
+						"attribute1": "ide",
+						"attribute2": "5"
+						}
+				}
+			},
+			"condition2": {
+			"comparator": ">",
+			"attribute1": "dpt",
+			"attribute2": "3"
+		}
+		},
+        "object": {"operation": "load",
+                   "filename": "employes.csv"
+                }
+    }
+}
+// not
+{
+    "operation": "projection",
+    "args": {
+        "condition": {
+			"logical": "not",
+			"condition": 
+			{
+			"logical": "or",
+			"condition1": {
+				"comparator": "}",
+				"attribute1": "ide",
+				"attribute2": "5"
+			},
+			"condition2": {
+			"comparator": "{",
+			"attribute1": "dpt",
+			"attribute2": "3"
+		}
+		}
+		},
+        "object": {"operation": "load",
+                   "filename": "employes.csv"
+                }
+    }
+}
+// False
+{
+    "operation": "projection",
+    "args": {
+        "condition": {
+			"logical": "and",
+			"condition1": "False",
+			"condition2": {
+			"comparator": ">",
+			"attribute1": "dpt",
+			"attribute2": "3"
+		}
+		},
+        "object": {"operation": "load",
+                   "filename": "employes.csv"
+                }
+    }
+}
+// True
+{
+    "operation": "projection",
+    "args": {
+        "condition": {
+			"logical": "and",
+			"condition1": {
+				"comparator": "<",
+				"attribute1": "ide",
+				"attribute2": "5"
+			},
+			"condition2": "True"
+		},
+        "object": {"operation": "load",
+                   "filename": "employes.csv"
+                }
+    }
+}
+// RSPR
+{
+    "operation": "rspr",
+    "args": {
+        "filename": "employes.csv",
+		"old attributes": ["ide", "dpt"],
+		"condition": {
+			"logical": "and",
+			"condition1": {
+				"comparator": "<",
+				"attribute1": "ide",
+				"attribute2": "5"
+			},
+			"condition2": {
+				"comparator": ">",
+				"attribute1": "dpt",
+				"attribute2": "3"
+			}
+		},
+		"new attributes": ["new_ide", "new_dpt"]
+    }
+}
+// JPR
+{
+    "operation": "jpr",
+    "args": {
+        "object1": {"operation": "load",
+                   "filename": "employes.csv"
+                },
+		"object2": {"operation": "load",
+                   "filename": "projets.csv"
+                },
+		"condition": {
+			"comparator": "<",
+			"attribute1": "ide",
+			"attribute2": "5"
+		},
+		"old attributes": ["ide","dpt"],
+		"new attributes": ["new_ide", "new_dpt"]
+    }
+}
+// PROJECT(CARTESIAN)
+{
+    "operation": "selection",
+    "args": {
+        "attributes": ["dpt","nom","idp"],
+        "object": 
+			{
+				"operation": "product",
+				"args": {
+					"object1": {"operation": "load",
+                   "filename": "employes.csv"
+                },
+					"object2": {"operation": "load",
+                   "filename": "membres.csv"
+                }
+				}
+			
+			}
+    }
+}
+
+

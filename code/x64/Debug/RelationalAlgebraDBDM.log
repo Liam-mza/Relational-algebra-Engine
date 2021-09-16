@@ -1,0 +1,15 @@
+﻿  RelationalAlgebraDBDM.cpp
+D:\OneDrive\Calculatoare si Tehnologia Informatiei\ERASMUS\DBDM\Project\project2021\project2021\GitLab\RelationalAlgebraDBDM\RelationalAlgebraDBDM.cpp(81,50): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:\OneDrive\Calculatoare si Tehnologia Informatiei\ERASMUS\DBDM\Project\project2021\project2021\GitLab\RelationalAlgebraDBDM\RelationalAlgebraDBDM.cpp(82,64): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:\OneDrive\Calculatoare si Tehnologia Informatiei\ERASMUS\DBDM\Project\project2021\project2021\GitLab\RelationalAlgebraDBDM\RelationalAlgebraDBDM.cpp(85,23): warning C4018: '<': signed/unsigned mismatch
+D:\OneDrive\Calculatoare si Tehnologia Informatiei\ERASMUS\DBDM\Project\project2021\project2021\GitLab\RelationalAlgebraDBDM\RelationalAlgebraDBDM.cpp(87,55): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:\OneDrive\Calculatoare si Tehnologia Informatiei\ERASMUS\DBDM\Project\project2021\project2021\GitLab\RelationalAlgebraDBDM\RelationalAlgebraDBDM.cpp(88,27): warning C4018: '<': signed/unsigned mismatch
+D:\OneDrive\Calculatoare si Tehnologia Informatiei\ERASMUS\DBDM\Project\project2021\project2021\GitLab\RelationalAlgebraDBDM\RelationalAlgebraDBDM.cpp(90,80): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:\OneDrive\Calculatoare si Tehnologia Informatiei\ERASMUS\DBDM\Project\project2021\project2021\GitLab\RelationalAlgebraDBDM\RelationalAlgebraDBDM.cpp(96,23): warning C4018: '<': signed/unsigned mismatch
+D:\OneDrive\Calculatoare si Tehnologia Informatiei\ERASMUS\DBDM\Project\project2021\project2021\GitLab\RelationalAlgebraDBDM\RelationalAlgebraDBDM.cpp(99,23): warning C4018: '<': signed/unsigned mismatch
+D:\OneDrive\Calculatoare si Tehnologia Informatiei\ERASMUS\DBDM\Project\project2021\project2021\GitLab\RelationalAlgebraDBDM\RelationalAlgebraDBDM.cpp(107,23): warning C4018: '<': signed/unsigned mismatch
+D:\OneDrive\Calculatoare si Tehnologia Informatiei\ERASMUS\DBDM\Project\project2021\project2021\GitLab\RelationalAlgebraDBDM\RelationalAlgebraDBDM.cpp(112,23): warning C4018: '<': signed/unsigned mismatch
+D:\OneDrive\Calculatoare si Tehnologia Informatiei\ERASMUS\DBDM\Project\project2021\project2021\GitLab\RelationalAlgebraDBDM\RelationalAlgebraDBDM.cpp(115,27): warning C4018: '<': signed/unsigned mismatch
+D:\OneDrive\Calculatoare si Tehnologia Informatiei\ERASMUS\DBDM\Project\project2021\project2021\GitLab\RelationalAlgebraDBDM\RelationalAlgebraDBDM.cpp(124,23): warning C4018: '<': signed/unsigned mismatch
+D:\OneDrive\Calculatoare si Tehnologia Informatiei\ERASMUS\DBDM\Project\project2021\project2021\GitLab\RelationalAlgebraDBDM\RelationalAlgebraDBDM.cpp(147,23): warning C4018: '<=': signed/unsigned mismatch
+LINK : fatal error LNK1104: cannot open file 'libboost_regex-vc141-mt-gd-x64-1_67.lib'

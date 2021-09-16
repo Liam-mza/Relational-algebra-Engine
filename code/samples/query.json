@@ -1,0 +1,39 @@
+
+{
+    "operation": "selection",
+    "args": {
+        "attributes": ["dpt", "nom", "idp"],
+        "object":
+		{
+    "operation": "product",
+    "args": {
+        "object1": {
+			"operation": "projection",
+			"args": {
+				"condition": {
+					"comparator": ">",
+					"attribute1": "ide",
+					"attribute2": "3"
+				},
+				"object": {"operation": "load",
+						   "filename": "employes.csv"
+						}
+			}
+		},
+        "object2": {
+			"operation": "projection",
+			"args": {
+				"condition": {
+					"comparator": "}",
+					"attribute1": "idp",
+					"attribute2": "2"
+				},
+				"object": {"operation": "load",
+						   "filename": "membres.csv"
+						}
+			}
+		}
+    }
+}
+    }
+}

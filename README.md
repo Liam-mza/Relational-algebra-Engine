@@ -121,5 +121,5 @@ To be able to compute queries faster, we decided to implement a form parallelism
 here is an example of query with the terminal output:  
 <img src="https://github.com/Liam-mza/Relational-algebra-Engine/blob/main/image/Terminal_Example.JPG" alt="drawing" width="700"/>
   
-**Project done in collaboration with Catalin Moldavan for the "Databases and datamining" at ENS Lyon.  **
+**Project done in collaboration with Catalin Moldavan for the "Databases and datamining" at ENS Lyon.**     
 **ENJOY!** 

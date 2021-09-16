@@ -71,7 +71,7 @@ CARTESIAN(employes)(departements)
 CARTESIAN(SELECT[ide<3](employes))(SELECT[idp<5](projets))
 ```
 
-**4. Renaiming**: RENAME[new_attribute_name(attribute)] (relation)
+**4. Renaming**: RENAME[new_attribute_name(attribute)] (relation)
 ```
 RENAME[new_ide(ide),new_dpt(dpt)](SELECT[ide<3|dpt>15](employes))
 ```
@@ -87,7 +87,7 @@ UNION(employes)(employes)
 UNION(SELECT[dpt>15](employes))(SELECT[ide<30](employes))
 ```
 
-**7. JPR**: JPR[new_attribute_name(attribute)] [condition] (relation)(relation)
+**7. JPR (Join-Project-Rename)**: JPR[new_attribute_name(attribute)] [condition] (relation)(relation)
 ```
 JPR[new_ide(ide),new_nom(nom),new_titre(titre)][ide<5,dpt>3](employes)(projets)
 ```
@@ -120,3 +120,6 @@ To be able to compute queries faster, we decided to implement a form parallelism
 # Example
 here is an example of query with the terminal output:  
 <img src="https://github.com/Liam-mza/Relational-algebra-Engine/blob/main/image/Terminal_Example.JPG" alt="drawing" width="400"/>
+  
+**Project done in collaboration with Catalin Moldavan for the "Databases and datamining" at ENS Lyon.**
+**ENJOY!** 
